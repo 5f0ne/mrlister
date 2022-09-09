@@ -1,6 +1,6 @@
 import argparse
 
-from src.StringSanitizer import StringSanitizer
+from src.classes.StringSanitizer import StringSanitizer
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--path", "-p", type=str, required=True, help="Path to Text File")
@@ -38,3 +38,4 @@ for word in final:
     f.write(word + "\n")
     
 f.close()
+pwList.close()

@@ -1,6 +1,6 @@
 # Description
 
-Provides the capability to parse a text, extract all words with a given length and write each word line by line into a new file.
+Reads a text, extracts all words with a given length and writes each word line by line into a new file.
 
 # Usage
 
@@ -11,7 +11,7 @@ Provides the capability to parse a text, extract all words with a given length a
 |--path | -p | String | Path to text file |
 |--result | -r | String | Path of the result file |
 | --lower | -l | Boolean | True if all output shall be lowercase, false otherwise |
-| --minlength | -m | Int | The minium length of the word  
+| --minlength | -m | Int | The minium length of the word |
 
 # Example
 
